@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+border: none;
+box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a {
+   color: inherit;
+   text-decoration: none;
+}
+img {
+vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+input,
+button,
+textarea {
+   font-weight: inherit;
+   font-size: inherit;
+}
+button {
+   cursor: pointer;
+   color: inherit;
+   background-color: inherit;
+}
+body {
+   line-height: 1;
+}
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+}
+ .car {
+ background: url(../img/road-min.jpg) center;
+} 
+.car__container {
+  width: 850px;
+  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
+  top: 750px;
+}
+.car__roof {
+   width: 400px;
+   height: 60px;
+   border: 1px solid black;
+   border-radius: 49% 51% 0% 100% / 100% 100% 0% 0%;
+   background-color: red;
+   position: relative;
+   left: 300px;
+}
+.middle-part{
+   background: url("../img/pink.jpg") 50px 0 / 300px no-repeat;
+   position: relative;
+   left: 300px;
+}
+.middle-part span {
+   border: 1px solid black;
+   display: inline-block;
+}
+.middle-part__side {
+   width: 51px;
+   height: 200px;
+   background-color: red; 
+}
+.middle-part__window {
+   width: 300px;
+   height: 200px;
+   margin-right: -5px;
+   margin-left: -5px;
+   background: radial-gradient(ellipse at center,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); 
+   opacity: 0;
+}
+.middle-part__window:hover{
+opacity: 1;
+position: relative;
+top: 50px;
+}
+ .last-part {
+   position: relative;
+   z-index: 100;
+} 
+.last-part__hood {
+   width: 300px;
+   height: 250px;
+   border: 1px solid black;
+   border-radius: 100% 0% 0% 100% / 73% 100% 0% 27% ;
+   background-color: aqua;
+   box-shadow: inset 20px 20px 30px 20px grey;
+   position: relative;
+   left: 40px;
+   top: -5px;
+}
+.last-part__light{
+   width: 400px;
+   height: 250px;
+   border: 1px solid black;
+   border-radius: 0% 100% 100% 0% / 100% 49% 51% 0%;
+   position: relative;
+   right: 380px;
+   opacity: 0; 
+}
+ .last-part__light:hover{
+   opacity: 1;
+   background-color: yellow;
+} 
+.last-part__headl{
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   border-radius: 100% 0% 37% 63% / 100% 30% 70% 0%;
+   background-color: bisque;
+   position: relative;
+   bottom: 180px;
+}
+.last-part__headl:hover{ 
+   background-color: yellow;
+}
+.last-part__predoor{
+   width: 400px;
+   height: 250px;
+   border: 1px solid black;
+   background-color: red;
+   position: relative;
+   bottom:  255px;
+   left: 300px;
+}
+.last-part__door {
+   width: 300px;
+   height: 250px;
+   border: 1px solid black;
+   box-shadow: inset 20px 20px 30px 20px grey;
+   background-color: aqua;
+   position: relative;
+   left: 350px;
+   bottom: 505px;
+   border-radius: 100px;
+}
+.last-part__handle{
+   width: 40px;
+   height: 65px;
+   border: 1px solid black;
+   border-radius: 0% 100% 100% 0% / 100% 50% 50% 0%;
+   background-color: red;
+   position: absolute;
+   top: 80px;
+   left: 200px;
+}
+.last-part__handle:hover{
+   background-color: black;
+}
+.last-part__trunk {
+   width: 150px;
+   height: 250px;
+   border: 1px solid black;
+   border-radius: 0% 100% 100% 0% / 73% 83% 17% 27%;
+   box-shadow: inset 20px 20px 30px 20px grey;
+   background-color: aqua;
+   position: relative;
+   bottom: 755px;
+   left: 700px;
+}
+.last-part__dimensions{
+   width: 40px;
+   height: 40px;
+   border: 1px solid black;
+   border-radius: 15px;
+   background-color: white;
+   position: absolute;
+   left: 70px;
+   top: 40px;
+}
+.last-part__dimensions:hover{
+   background-color: orange;
+}
+.wheels__wheel {
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   border-radius:200px;
+   box-shadow: 10px 10px 2px 2px rgb(212, 207, 207);
+   background: grey;
+   position: relative;
+   left: 300px;
+   bottom: 850px;
+}
+.wheels__wheel--right {
+position: relative;
+left: 550px;
+
+}
+.wheels__wheel--left {
+   position: relative;
+   bottom: 1050px;
+   left: 250px;
+}
+.wheels__circul{
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   border-radius: 100px;
+   background-color: rgb(49, 45, 45);
+   position: relative;
+   top: 50px;
+   left: 50px;
+}
